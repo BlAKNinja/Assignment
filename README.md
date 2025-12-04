@@ -25,12 +25,12 @@ pip install coverage
 
 Navigate to:
 ```
-cd assignment1_producer_consumer
+cd ProducerConsumerSystem
 ```
 
 Run:
 ```
-python src/producer_consumer/main.py
+python producer_consumer/main.py
 ```
 
 This demonstrates:
@@ -44,23 +44,26 @@ This demonstrates:
 
 Navigate to:
 ```
-cd assignment2_data_analysis
+cd Assignment2_DataAnalysis
 ```
 
 Run:
 ```
-python src/sales_analysis/main.py
+python sales_analysis/main.py
 ```
 
 This will:
 - Load `sample_sales.csv`
+- <img width="682" height="608" alt="image" src="https://github.com/user-attachments/assets/4128fb75-bffb-4308-a087-3e9656813618" />
+
 - Compute:
   - Total revenue  
   - Total quantity  
   - Revenue by region  
   - Top-selling products  
 - Print results to the console  
-- *(Screenshots to be added)*
+- <img width="1270" height="118" alt="image" src="https://github.com/user-attachments/assets/45b3b79d-0d1f-49e3-8b89-16822d32d532" />
+
 
 ---
 
@@ -68,13 +71,13 @@ This will:
 
 ### Assignment 1:
 ```
-cd assignment1_producer_consumer
+cd ProducerConsumerSystem
 python -m unittest discover -s tests -v
 ```
 
 ### Assignment 2:
 ```
-cd assignment2_data_analysis
+cd Assignment2_DataAnalysis
 python -m unittest discover -s tests -v
 ```
 
@@ -107,10 +110,13 @@ open htmlcov/index.html
 ## 🖼 **Output Screenshots**
 
 ### Assignment 1 – Producer–Consumer Output
-*(Insert screenshot here)*
+<img width="1702" height="742" alt="image" src="https://github.com/user-attachments/assets/7f1bf234-bb08-453b-90a4-024d9e983b09" />
+
 
 ### Assignment 2 – Sales Analysis Output
-*(Insert screenshot here)*
+<img width="682" height="608" alt="image" src="https://github.com/user-attachments/assets/1d5a7078-02a4-497e-8b63-78930b99a6d0" />
+- <img width="1270" height="118" alt="image" src="https://github.com/user-attachments/assets/45b3b79d-0d1f-49e3-8b89-16822d32d532" />
+
 
 ---
 
