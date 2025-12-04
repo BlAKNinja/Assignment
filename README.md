@@ -112,6 +112,14 @@ open htmlcov/index.html
 ### Assignment 1 – Producer–Consumer Output
 <img width="1702" height="742" alt="image" src="https://github.com/user-attachments/assets/7f1bf234-bb08-453b-90a4-024d9e983b09" />
 
+### 🧵 How This Output Was Generated (Assignment 1 Explanation)
+
+This output was produced by running the `main.py` file inside the `producer_consumer` directory. In this assignment, I created a simple `Product` class containing only a `product_id` field, representing the items transferred between the Producer and Consumer threads.
+
+Inside `main.py`, I prepared a list of `Product` objects and passed this list to the `Producer` thread. The Producer iterated through these products and inserted them into the custom `BlockingQueue`, which I implemented using Python’s `threading.Lock` and `Condition` variables. The `Consumer` thread simultaneously removed items from the same queue.
+
+As both threads run concurrently, each produced and consumed product is printed to the console. The queue correctly blocks producers when the queue is full and blocks consumers when the queue is empty, demonstrating proper synchronization. Finally, when the special `"END"` product appears, the Consumer stops execution, completing the full Producer–Consumer workflow.
+
 
 ### Assignment 2 – Sales Analysis Output
 <img width="682" height="608" alt="image" src="https://github.com/user-attachments/assets/1d5a7078-02a4-497e-8b63-78930b99a6d0" />
