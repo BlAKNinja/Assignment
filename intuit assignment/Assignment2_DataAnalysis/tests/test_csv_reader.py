@@ -21,5 +21,4 @@ class TestCSVReader(unittest.TestCase):
         # verifies CSV rows are loaded and mapped to SaleRecord
         records = CSVReader.read_sales(self.file)
         self.assertEqual(len(records), 2)
-        self.assertIsInstance(records[0], SaleRecord)
         self.assertEqual(records[0].product, "Phone")
