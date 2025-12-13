@@ -4,7 +4,7 @@ from services.analyzer import SalesAnalyzer
 
 def main():
     try:
-        file_path = "sample_sales.csv"
+        file_path = "sales_analysis/sample_sales.csv"
         records = CSVReader.read_sales(file_path)
 
         print("Total Revenue:", SalesAnalyzer.total_revenue(records))
